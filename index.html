@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>o.rly | An unstoppable, blockchain-based fact-checking registry.</title>
+<title>O.RLY</title>
 <link rel="icon" href="q.png"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" rel="stylesheet">
 <body style="background-color:#000000;">
 
 <style>
@@ -11,21 +11,16 @@
     position: relative;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .content{
     position: relative;
-    top: 125px;
+    top: 10px;
     left: 0;
-    z-index: 100;  
+    z-index: 100;
 }
-.content2{
-    position: relative;
-    top: 125px;
-    left: 0;
-    z-index: 100;  
-}
+
 
 .background{
     color: #999999;
@@ -33,58 +28,38 @@
     top: 0;
     left: 0;
     z-index: -100;
-    
-}
 
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-   
-}
-
-.searchTerm {
-  width: 100%;
-  border: 10px solid #e6dec9;
-  background: #e6dec9;  
-  padding: 5px;
-  height: 30px;
-  border-radius: 12px 12px 12px 12px;
-  outline: none;
-  color: #999999;
-  font-size: 15px;
-}
-
-.searchTerm:focus{
-  color: #000000;
-}
-
-.wrap{
-  width: 35%;
-  position: absolute;
-  top: 250%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 </style>
+
+<SCRIPT type="text/javascript">
+ function JavaBlink() {
+    var blinks = document.getElementsByTagName('JavaBlink');
+    for (var i = blinks.length - 1; i >= 0; i--) {
+       var s = blinks[i];
+       s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+    }
+    window.setTimeout(JavaBlink, 500);
+ }
+ if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+ else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+ else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+ else window.onload = JavaBlink;
+</SCRIPT>
 
 </head>
 
 <body>
 
 <div id="wrapper">
-    <div class="content">    
-        <p style="font-family:Cormorant; font-weight: bold; color: #e6dec9; font-size: 125px; font-weight: bold; text-align: center; margin : 0 ">o.rly?</p>
-        <p style="font-family:Cormorant; color: #e6dec9; font-size: 20px; font-weight: bold; text-align: center; margin : 0 ">An unstoppable, blockchain-based fact-checking registry.</p>
-    </div>
+    <div class="content">
+        <javaBlink><p style="font-family:Cormorant; font-weight: bold; color: #E45E9D; font-size: 450px; font-weight: bold; text-align: center; margin : 0 ">o.rly?</p></javaBlink>
+          </div>
     <div class="background">
-        <img src="owl_scale.jpg" style="position:fixed; float:left; left:39%; bottom:0px;">
+        <img src="owl.jpg" style="position:fixed; float:left; left:29%; bottom:0px;">
     </div>
-    <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="Search or ask">
-   </div>
+
 </div>
 </div>
 
