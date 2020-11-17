@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>O.RLY</title>
+<title>O?RLY</title>
 <link rel="icon" href="q.png"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" rel="stylesheet">
 <body style="background-color:#000000;">
-
 <style>
-#wrapper{
-    position: relative;
-    width: 100%;
-    height: 100%;
-
+a:link {
+  text-decoration: none;
+  color: white;
 }
 
-.content{
-    position: relative;
-    top: 10px;
-    left: 0;
-    z-index: 100;
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
-
-.background{
-    color: #999999;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-
+#wrapper
+* {padding: 0;margin: 0; box-sizing-border-box-box;}
+    
+body {
+   margin: 0; height: 100%; overflow: hidden;
+   background-color:#000000;
+   background-image: url('owl.jpg');
+   background-position: 30% 100%;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+    
+section {
+   position: absolute;
+   top: 10%;
+   left: 40%;
+   font-family: cormorant; font-weight: bold; color: #E45E9D; font-size: 300px; text-shadow: 2px 2px 0px #FF0000;"
+   -webkit-transform: rotate(-18deg);-moz-transform: rotate(-18deg);-o-transform: rotate(-18deg);transform: rotate(-18deg);
+}
+section2 {
+   position: absolute;
+   top: 41%;
+   left: 60%;
+   font-family: cormorant; font-weight: bold; color: #E45E9D; font-size: 100px; text-shadow: 2px 2px 0px #FF0000;"
+   -webkit-transform: rotate(18deg);-moz-transform: rotate(18deg);-o-transform: rotate(18deg);transform: rotate(18deg);
+}
+section3 {
+   position: absolute;
+   top: 50%;
+   left: 48%;
+   font-family: cormorant; font-weight: bold; color: #E45E9D; font-size: 150px; text-shadow: 2px 2px 0px #FF0000;"
+   -webkit-transform: rotate(115deg);-moz-transform: rotate(115deg);-o-transform: rotate(115deg);transform: rotate(115deg);
 }
 
 </style>
 
-<SCRIPT type="text/javascript">
- function JavaBlink() {
-    var blinks = document.getElementsByTagName('JavaBlink');
-    for (var i = blinks.length - 1; i >= 0; i--) {
-       var s = blinks[i];
-       s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
-    }
-    window.setTimeout(JavaBlink, 500);
- }
- if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
- else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
- else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
- else window.onload = JavaBlink;
-</SCRIPT>
-
-</head>
-
-<body>
-
 <div id="wrapper">
-    <div class="content">
-        <javaBlink><p style="font-family:Cormorant; font-weight: bold; color: #E45E9D; font-size: 620px; font-weight: bold; text-align: center; margin : 0 ">o.rly?</p></javaBlink>
-          </div>
-    <div class="background">
-        <img src="owl.jpg" style="position:fixed; float:left; left:29%; bottom:0px;">
-    </div>
-
-</div>
+  <section>
+    <p>o<a href="https://handshake.org">?</a>rly</p>
+  </section>
+  <section2>
+    <p>o<a href="https://handshake.org">?</a>rly</p>
+  </section2>
+  <section3>
+    <p>o<a href="https://handshake.org">?</a>rly</p>
+  </section3>
 </div>
 
 
